@@ -5,7 +5,8 @@ WIP:
 - css for page
 - edit readme
 
-[Original repo]('https://github.com/stampix/web-assignment')
+[Original repo](https://github.com/stampix/web-assignment)
+
 <!-- # Stampix Web Assignment
 
 **Important**: You can choose any technology stack you want, this repo contains a scaffolded web app with [Create React App](https://github.com/facebook/create-react-app).
