@@ -6,6 +6,10 @@ WIP:
 - edit readme
 
 [Original repo](https://github.com/stampix/web-assignment)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3b6c1a4b3cefc52522a296e9247216f83c9d2e85
 <!-- # Stampix Web Assignment
 
 **Important**: You can choose any technology stack you want, this repo contains a scaffolded web app with [Create React App](https://github.com/facebook/create-react-app).
