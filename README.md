@@ -1,9 +1,11 @@
-Typescript Version
+## Typescript Version
 
+WIP: 
+- fix the problems in codes
+- css for page
+- edit readme
 
-WIP 
-1 - fix the problems in codes
-2 - css for page
+[Original repo]('https://github.com/stampix/web-assignment')
 <!-- # Stampix Web Assignment
 
 **Important**: You can choose any technology stack you want, this repo contains a scaffolded web app with [Create React App](https://github.com/facebook/create-react-app).
