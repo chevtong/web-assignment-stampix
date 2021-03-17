@@ -31,13 +31,13 @@ export const enTemplate:Template = {
   
   export const nlTemplate:Template = {
     customer: {
-      title: "Voor klant",
+      title: "Voor klanten",
       slogan: "Installeer de Stampix-app",
       slogan2: "en bestel afdrukken in slechts een paar klikken",
       buttonText: "begin met afdrukken",
     },
     business: {
-      title: "Voor zaken",
+      title: "Voor bedrijven",
       slogan: "Bouw emotionele loyaliteit op",
       slogan2: "en merkbetrokkenheid",
       buttonText: "stampix voor bedrijven",

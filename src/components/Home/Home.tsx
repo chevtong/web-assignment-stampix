@@ -14,59 +14,63 @@ export const Home: React.FC<HomeProps> = ({ currentTemplate, isSwitching }) => {
 
     return (
         <div className="home">
-
             <div className="consumers">
-                <div className="consumer-text">
+                <div
+                    className={
+                        isSwitching ? "right-switch-text consumer-text" : "consumer-text"
+                    }
+                >
                     <p>{currentTemplate.customer.title}</p>
-                    <h3>{currentTemplate.customer.slogan}</h3>
-                    <h3>{currentTemplate.customer.slogan2}</h3>
+                    <div className="home-slogan">
+                        <h3>{currentTemplate.customer.slogan}</h3>
+                        <h3>{currentTemplate.customer.slogan2}</h3>
+                    </div>
                     <a href="https://stampix.com">
                         <button className="home-button">
                             {currentTemplate.customer.buttonText}
                         </button>
                     </a>
-
-                    <img
-            className="consumer-phone-img"
-            src={phoneImg}
-            alt="Phone_image"
-          />
                 </div>
 
-                <div className="consumer-img-container">
-                <div className="img-container">
-            <img className="business-logos" src={orangeLogo} alt="Orange" />
-          </div>
-          <div className="img-container">
-            <img
-              className="business-logos"
-              src={playmobilLogo}
-              alt="Playmobil"
-            />
-          </div>
-          <div className="img-container">
-            <img className="business-logos" src={edfLogo} alt="EDF" />
-          </div>
+                <div className={isSwitching ? "right-switch-text consumer-img-container" : "consumer-img-container"}>
+                    <img
+                        className="consumer-phone-img"
+                        src={phoneImg}
+                        alt="Phone_image"
+                    />
                 </div>
             </div>
 
             <div className="business">
-                <div className="business-text" >
-
+                <div className={isSwitching ? "left-switch-text business-text" : "business-text"}>
                     <p>{currentTemplate.business.title}</p>
-                    <h3>{currentTemplate.business.slogan}</h3>
-                    <h3>{currentTemplate.business.slogan2}</h3>
+                    <div className="home-slogan">
+                        <h3>{currentTemplate.business.slogan}</h3>
+                        <h3>{currentTemplate.business.slogan2}</h3>
+                    </div>
                     <a href="https://business.stampix.com">
                         <button className="home-button">
                             {currentTemplate.business.buttonText}
                         </button>
                     </a>
                 </div>
-                <div className="business-logos-container">
-                    {/* logo image here */}
+                <div
+                    className={isSwitching?"left-switch-text business-logos-container": "business-logos-container"}>
+                    <div className="img-container">
+                        <img className="business-logos" src={orangeLogo} alt="Orange" />
+                    </div>
+                    <div className="img-container">
+                        <img
+                            className="business-logos"
+                            src={playmobilLogo}
+                            alt="Playmobil"
+                        />
+                    </div>
+                    <div className="img-container">
+                        <img className="business-logos" src={edfLogo} alt="EDF" />
+                    </div>
                 </div>
             </div>
-
         </div>
     );
 }

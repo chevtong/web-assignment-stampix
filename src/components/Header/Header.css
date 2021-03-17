@@ -49,3 +49,21 @@ nav {
     }
   }
   
+  @media only screen and (max-width: 425px) {
+    nav{
+      grid-template-columns: 100%;
+     } 
+     .nav-languages-choice {
+      justify-content: space-around;
+     }
+  }
+
+  @media only screen and (max-width: 320px) {
+   nav{
+    grid-template-columns: 100%;
+   } 
+   
+}
+
+
+  

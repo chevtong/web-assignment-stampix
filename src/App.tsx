@@ -9,9 +9,9 @@ const initialLang: string = "en";
 
 const App: React.FC = () => {
 
-  const [language, setLanguage] = useState<string>(initialLang);
-  const [currentTemplate, setCurrentTemplate] = useState(enTemplate);
-  const [isSwitching, setIsSwithcing] = useState<boolean>(false)
+  const [language, setLanguage] = useState<language>(initialLang);
+  const [currentTemplate, setCurrentTemplate] = useState<Template>(enTemplate);
+  const [isSwitching, setIsSwithcing] = useState<isSwitching>(false)
 
   useEffect(() => {
 
@@ -50,8 +50,8 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <React.Fragment>
-        <Header switchLanguage={switchLanguage} />
-        <Home currentTemplate={currentTemplate} isSwitching={isSwitching}/>
+        <Header switchLanguage={switchLanguage} language={language}/>
+        <Home currentTemplate={currentTemplate} isSwitching={isSwitching} />
       </React.Fragment>
     </div>
   );
