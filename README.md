@@ -6,6 +6,7 @@ As a screening assignment, I do not have a lot of time to pick up the new langua
 
 The requirements and objectives are listed in the [original repo](https://github.com/stampix/web-assignment) from Stampix.
 <br><br>
+### Check out the [DEMO HERE]()
 
 ## My Work Flow: 
 1. Set up components folder to store different parts for the page, and create types.d.ts file to define the type of props
