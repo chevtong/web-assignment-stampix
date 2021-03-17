@@ -1,3 +1,4 @@
+Typescript Version
 <!-- # Stampix Web Assignment
 
 **Important**: You can choose any technology stack you want, this repo contains a scaffolded web app with [Create React App](https://github.com/facebook/create-react-app).
