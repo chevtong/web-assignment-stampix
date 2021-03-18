@@ -1,6 +1,6 @@
 export const enTemplate: Template = {
   customer: {
-    title: "For customer",
+    title: "For consumers",
     slogan: "Install the Stampix App",
     slogan2: "and order prints in just a few clicks",
     buttonText: "start printing",
@@ -16,7 +16,7 @@ export const enTemplate: Template = {
 
 export const frTemplate: Template = {
   customer: {
-    title: "Pour le client",
+    title: "Pour les consommateurs",
     slogan: "Installez l'application Stampix",
     slogan2: "et commandez des tirages en quelques clics",
     buttonText: "commencer l'impression",
@@ -31,7 +31,7 @@ export const frTemplate: Template = {
 
 export const nlTemplate: Template = {
   customer: {
-    title: "Voor klanten",
+    title: "Voor verbruikers",
     slogan: "Installeer de Stampix-app",
     slogan2: "en bestel afdrukken in slechts een paar klikken",
     buttonText: "begin met afdrukken",

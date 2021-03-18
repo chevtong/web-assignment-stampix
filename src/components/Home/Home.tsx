@@ -22,7 +22,7 @@ export const Home: React.FC<HomeProps> = ({ currentTemplate, isSwitching }) => {
                         <h3>{currentTemplate.customer.slogan}</h3>
                         <h3>{currentTemplate.customer.slogan2}</h3>
                     </div>
-                    <a href="https://stampix.com" className="home-button customer-button">
+                    <a href="https://stampix.com" className="home-button">
                         {currentTemplate.customer.buttonText}
                     </a>
                 </div>
@@ -42,7 +42,7 @@ export const Home: React.FC<HomeProps> = ({ currentTemplate, isSwitching }) => {
                         <h3>{currentTemplate.business.slogan}</h3>
                         <h3>{currentTemplate.business.slogan2}</h3>
                     </div>
-                    <a href="https://business.stampix.com" className="home-button business-button">
+                    <a href="https://business.stampix.com" className="home-button">
                         {currentTemplate.business.buttonText}
                     </a>
                 </div>

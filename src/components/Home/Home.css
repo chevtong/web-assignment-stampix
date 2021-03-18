@@ -27,12 +27,9 @@
 .home-button:focus {
   outline: none;
 }
-
-.customer-button:hover {
-  background-color: white;
-}
-.business-button:hover {
-  background-color: #fff3c1;
+.home-button:hover {
+  background-color: #003d67;
+  color: #b8e3be;
 }
 
 .consumers h3,
@@ -48,7 +45,6 @@
 .consumers p,
 .business p {
   font-family: ConduitITCStd;
-  font-style: normal;
   font-weight: 300;
   font-size: 20px;
   line-height: 18px;
@@ -84,7 +80,6 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  
 }
 
 .business {
@@ -101,10 +96,10 @@
 .business-logos {
   width: 100%;
 }
+
 .img-container {
   margin: 0 1rem;
 }
-
 .right-switch-text {
   animation: move-right 0.8s linear 1;
 }
@@ -122,7 +117,6 @@
     opacity: 1;
   }
 }
-
 @keyframes move-left {
   0% {
     transform: translateX(50px);
@@ -133,6 +127,7 @@
     opacity: 1;
   }
 }
+
 @media only screen and (min-width: 1500px) {
   .consumers,
   .business {
@@ -140,20 +135,12 @@
     min-height: 60vh;
   }
 }
-@media only screen and (max-width: 1024px) {
-  .consumers,
-  .business {
-    grid-template-rows: 60% 40%;
-  }
-}
 @media only screen and (max-width: 850px) {
- 
   .consumers h3,
   .business h3 {
     font-size: 18px;
   }
 }
-
 @media only screen and (max-width: 700px) {
   .home {
     grid-template-columns: 100%;
@@ -161,7 +148,7 @@
   .consumers,
   .business {
     grid-template-rows: 70% 30%;
-    min-height: 50vh;  
+    min-height: 60vh;  
   }
   .consumers p,
   .business p {
@@ -169,15 +156,19 @@
   }
 }
 @media only screen and (max-width: 600px) {
+  .home {
+    width: 80%
+  }
   .consumers,
   .business {
     grid-template-rows: 70% 30%;
-    min-height: 40vh;
   }
 }
-
-
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 376px) {
+  .consumers,
+  .business {
+   min-height:60vh;
+  }
   .consumers h3,
   .business h3 {
     font-size: 18px;

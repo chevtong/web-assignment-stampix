@@ -4,15 +4,17 @@ import logo from "../../assets/images/logo.png";
 
 
 interface HeaderProps {
-    language:language;
-    switchLanguage: switchLanguage;
+  language: language;
+  switchLanguage: switchLanguage;
 }
 
 export const Header: React.FC<HeaderProps> = ({ language, switchLanguage }) => {
 
-    return (
-        <nav>
-      <img className="nav-logo" src={logo} alt="logo" />
+  return (
+    <nav>
+      <a href="https://stampix.com/en/">
+        <img className="nav-logo" src={logo} alt="logo" />
+      </a>
       <div className="nav-languages-choice">
         <button
           className={language === "nl" ? "active nav-lang-button" : "nav-lang-button"}
@@ -37,6 +39,6 @@ export const Header: React.FC<HeaderProps> = ({ language, switchLanguage }) => {
         </button>
       </div>
     </nav>
-    )
+  )
 }
 
