@@ -4,7 +4,6 @@ import { Home } from "./components/Home/Home";
 import {enTemplate, frTemplate, nlTemplate} from "./components/Templates/Templates"
 import './App.css';
 
-
 const App: React.FC = () => {
 
   const [language, setLanguage] = useState<language>("en");
@@ -22,7 +21,7 @@ const App: React.FC = () => {
 
   }, [language]);
 
-
+  
   const switchLanguage: switchLanguage = (e) => {
 
     setLanguage(e.target.value);

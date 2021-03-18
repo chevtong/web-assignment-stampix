@@ -1,31 +1,31 @@
-@font-face{
-    src: url(./assets/fonts/futura.ttf);
-    font-family: futura;
-  }
-  @font-face{
-    src: url(./assets/fonts/ConduitITCStd-Regular.otf);
-    font-family: ConduitITCStd;
-  }
-  
-  *{  
-    margin: 0;
-    padding: 0;
-  }
-  
-  body{
-    font-family: futura;
-    background-image: url('./assets/images/background.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-  .App{
-    margin-bottom: 20%;
-  }
-  
+@font-face {
+  src: url(./assets/fonts/futura.ttf);
+  font-family: futura;
+}
+@font-face {
+  src: url(./assets/fonts/ConduitITCStd-Regular.otf);
+  font-family: ConduitITCStd;
+}
 
-  @media only screen and (min-width: 1500px) {
-    .App{
-      margin-bottom: 10%;
-    }
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: futura;
+  background-image: url("./assets/images/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.App {
+  margin-bottom: 20%;
+}
+
+@media only screen and (min-width: 1500px) {
+  .App {
+    margin-bottom: 10%;
   }
+}

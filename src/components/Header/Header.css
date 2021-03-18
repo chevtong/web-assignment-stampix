@@ -10,12 +10,10 @@ nav {
 .nav-logo {
   height: 70px;
 }
-
 .nav-languages-choice {
   display: flex;
   justify-content: space-between;
 }
-
 .nav-lang-button {
   background-color: transparent;
   border: none;
@@ -38,7 +36,6 @@ nav {
   color: #b8e3be;
 }
 
-
 @media only screen and (max-width: 768px) {
   nav {
     grid-template-columns: 85% 15%;
@@ -52,7 +49,6 @@ nav {
     font-size: 10px;
   }
 }
-
 @media only screen and (max-width: 425px) {
   nav {
     grid-template-columns: 100%;
